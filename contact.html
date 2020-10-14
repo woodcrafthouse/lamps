@@ -4,13 +4,16 @@
 <head>
 	<title>WOODCRAFTHOUSE</title>
 	<link rel="icon" type="image/png" href="images/wood.png">
-	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
+
 	<script type="text/javascript">
 
 		$(document).ready(function () {
@@ -112,93 +115,82 @@
 
 				<li><a class="color1" href="contact.html">Contact us</a></li>
 		</div>
+		<section id="contact">
+
+		</section>
 
 
 		<div class="clear"></div>
 	</div>
 	</div>
+	<section class="contact" id="contact">
+
+		<h1 class="text-center">Fill the form-</h1>
+		<form name="contact" method="POST" data-netlify="true">
+			<div class="form">
+				<input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+				<input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+				<input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+				<textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Address"></textarea>
+
+				<input class="btn btn-sm btn-dark" type="submit" value="Submit">
+			</div>
+		</form>
+	</section>
 
 
 
-	</div>
-	<div class="clear"></div>
-	<div class="bg-white relative flex flex-wrap py-6">
-		<div class="lg:w-1/2 px-6">
-			<h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">If you want to buy these products
-				please contact us at:-
-				
-			</h2>
-			<h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">Address:-<br>
-			
-
-			</h2>
-			<h2 class="title-font font-medium text-gray-900 tracking-widest text-sm"><br>
-
-
-			</h2>
-
-		</div>
-		<div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-			<h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">EMAIL</h2>
-
-			<a class="text-indigo-500 leading-relaxed">woocrafthouse78@gmail.com</a>
-			<br>
-
-			<h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mt-4">PHONE</h2>
-			<p class="leading-relaxed">+91 90275 51962
-			</p>
-			
-		</div>
 
 
 
-		<script type="text/javascript">
-			$(window).load(function () {
-				$("#flexiselDemo1").flexisel();
-				$("#flexiselDemo2").flexisel({
-					enableResponsiveBreakpoints: true,
-					responsiveBreakpoints: {
-						portrait: {
-							changePoint: 480,
-							visibleItems: 1
-						},
-						landscape: {
-							changePoint: 640,
-							visibleItems: 2
-						},
-						tablet: {
-							changePoint: 768,
-							visibleItems: 3
-						}
+
+	<script type="text/javascript">
+		$(window).load(function () {
+			$("#flexiselDemo1").flexisel();
+			$("#flexiselDemo2").flexisel({
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint: 480,
+						visibleItems: 1
+					},
+					landscape: {
+						changePoint: 640,
+						visibleItems: 2
+					},
+					tablet: {
+						changePoint: 768,
+						visibleItems: 3
 					}
-				});
-
-				$("#flexiselDemo3").flexisel({
-					visibleItems: 5,
-					animationSpeed: 1000,
-					autoPlay: true,
-					autoPlaySpeed: 3000,
-					pauseOnHover: true,
-					enableResponsiveBreakpoints: true,
-					responsiveBreakpoints: {
-						portrait: {
-							changePoint: 480,
-							visibleItems: 1
-						},
-						landscape: {
-							changePoint: 640,
-							visibleItems: 2
-						},
-						tablet: {
-							changePoint: 768,
-							visibleItems: 3
-						}
-					}
-				});
-
+				}
 			});
-		</script>
-		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+
+			$("#flexiselDemo3").flexisel({
+				visibleItems: 5,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint: 480,
+						visibleItems: 1
+					},
+					landscape: {
+						changePoint: 640,
+						visibleItems: 2
+					},
+					tablet: {
+						changePoint: 768,
+						visibleItems: 3
+					}
+				}
+			});
+
+		});
+	</script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
 
 	</div>
 	<div class="clear"></div>
