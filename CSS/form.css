@@ -180,3 +180,56 @@
 	float: left;
 	height: 100%;
 }
+.contact{
+    background-color: #f6f5f4;
+    height: 833px;
+}
+.text-center{
+
+    text-align: center;
+    padding-top: 30px;
+   font-family: 'Ubuntu', sans-serif;
+       font-size: 35px;
+}
+
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%; 
+	font-size: 19px;
+	
+	outline-color: rgb(0, 166, 255);
+    
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sm{
+	background-color: black;
+    padding: 6px 30px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.btn-dark{
+    color: white;
+    border: 2px solid grey;
+
+}
+
